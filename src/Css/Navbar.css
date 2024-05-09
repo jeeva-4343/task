@@ -1,0 +1,70 @@
+/* Navbar.css */
+.brand-container {
+  /* display: flex; */
+  /* align-items: center; */
+}
+.Navi-container{
+  justify-content: center !important;
+  align-items: center !important;
+  text-align:  center !important;
+  width: 73% !important;
+  padding: 10px;
+}
+.navi-left{
+  margin-left: 350px;
+  
+}
+.navi-txt-clr
+{
+}
+
+.brand-icon {
+  font-size: 24px; /* Adjust size as needed */
+  margin-right: 5px; /* Add margin for spacing */
+  color: rgb(10, 162, 244); /* Set color to white */
+}
+
+.brand-name {
+  font-size: 30px; /* Adjust size as needed */
+  font-weight: bold; /* Add bold font-weight */
+  color: rgb(10, 162, 244); /* Set color to white */
+}
+.nav-link {
+  color: #d6c3ea !important;
+  margin: 5px; /* Set default color for nav links to white */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: rgb(10, 162, 244) !important; /* Change color on hover/focus to maintain consistency */
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #8773db
+  !important;
+  border-style: solid !important;
+  padding-bottom: 0px;
+  color:#42b5ef!important;
+}
+
+.Freetrial{
+    background-color: rgb(99, 99, 238) !important;
+    border-radius: 0.3rem !important;
+    color: white !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+@media (max-width:1000px){
+  .Navi-container{
+    width: auto !important;
+  }
+}
+@media (max-width:1025px){
+  .navi-left{
+    margin-left: auto;
+  }
+  .Navi-container{
+    width: 90% !important;
+  }
+}
+  

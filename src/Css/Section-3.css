@@ -1,0 +1,92 @@
+.Section-3-container{
+    padding: 20px;
+    background-color: rgb(239, 235, 235);
+}
+
+.icon-circle {
+    border-radius: 3rem;
+    padding: 25px; 
+    /* border-style: solid;    */
+}
+
+.icon-circle-div {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    /* border-style: solid; */
+}
+
+.card-icon-circle:hover {
+    background-color: #6427bd; /* Change to desired hover background color */
+}
+
+.card-icon-circle {
+    border-style: solid;
+    border-radius: 3rem;
+    padding: 5px;
+    color:#82cff4;
+}
+
+.crd-body {
+    position: relative;
+        /* transform: rotate(180deg); */
+
+}
+
+.card-main-same {
+    padding: 0px;
+    border: none;
+    width: 235px;
+}
+
+.section3-card-row {
+    justify-content: center;
+    padding: 30px;
+}
+
+.Section3-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    /* width: 25% !important; */
+    /* border-style: solid; */
+}
+
+.crd-body:hover{
+    transform: rotate(180deg);
+  
+    
+/* display: none; */
+
+}
+.wave-container:hover {  
+    height: auto;
+    background-color:#6427bd;
+    transform: rotate(180deg);
+    /* position: relative; */
+    border: none;
+    margin: 0px;
+    text-align: center;
+}
+.wave-container::before {   
+    content: "";
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    bottom: -0.3%;
+    left: 0;
+    /* transform: rotate(180deg); */
+    background-size: auto;
+    background-repeat: repeat no-repeat;
+    background-position: 0vw bottom;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  134' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23ffffff'/></svg>");
+}
+.Section-3-crd-tittle{
+    margin-top: 10px !important;
+}
+
+@media(max-width:850px) {
+    .wave-container::before {    
+        height: 42.5px;
+    }  
+}

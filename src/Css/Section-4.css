@@ -1,0 +1,151 @@
+.Section-4-Container {
+    /* height: 550px; */
+    background-color: rgb(239, 235, 235);
+    padding: 10px;
+}
+
+.Section-2-First-row {
+    text-align: center;
+    padding: 10px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.Section-4-head {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.Section-4-col {
+    margin-left: 10px !important;
+    /* border-style: solid; */
+    padding: 0px !important;
+}
+
+.Section-4-card {
+    padding: 15px;
+}
+.Section-4-Sub-head {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.Section-2-Second-row {
+    text-align: center !important;
+    justify-content: center !important;
+    padding: 10px;
+    align-items: center;
+}
+.Section-4-crd-head {
+    font-weight: 500;
+}
+
+.Section-4-mo {
+    font-size: 35px;
+    font-weight: 600;
+}
+.Section-4-mo2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+.Section-4-txt {
+    width: 95%;
+    padding: 15px;
+}
+.Section-4-btn {
+    color: #41b4ee !important;
+    background-color: #ecf7fd !important;
+    border: none !important;
+    padding: 20px !important;
+    /* padding-top: 10px !important; */
+    /* padding-bottom: 10px !important; */
+    font-size: 17px !important;
+    /* padding-left: 30px !important; */
+    /* padding-right: 30px !important; */
+    font-weight: 500 !important;
+    transition: background-color 0.3s, color 0.3s; /* Added transition for smooth hover effect */
+}
+.Section-4-btn:hover {
+    background-color: #41b4ee !important;
+    color: #ecf7fd !important;
+}
+.Section-4-tab-icon{
+    color: #3eb2ed;
+}
+.Section-4-crd-head  :hover{
+    position: absolute;
+}
+
+
+.Section-4-wave:hover{
+  background-image: url('../images//wave\ \(1\).svg');
+  background-repeat: no-repeat;  
+  height: 320px;
+  background-size: cover;
+  background-position: bottom;
+}
+.Section-4-card:hover{
+  /* transform: rotate(0deg) !important; */
+  height: 380px !important;
+  padding: 0px;
+
+}
+.Section-4-crd-body :hover{
+  /* padding: 10px;
+  margin-top: 80px !important; */
+}
+.wave-containerr:hover {  
+  height: 20vh;
+  background-color:#6427bd;
+  /* transform: rotate(360deg); */
+  position: relative;
+  border: none;
+  /* margin: 0px; */
+  padding: 0px;
+  text-align: center;
+}
+.wave-containerr::after {   
+  content: "";
+  width: 100%;
+  height: 50px !important;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  margin-top: 0px !important;
+  /* transform: rotate(180deg); */
+  /* background-size: cover; */
+  background-repeat: repeat no-repeat;
+  background-position: 10vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  134' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23ffffff'/></svg>");
+    border: none !important;
+}
+
+@media(max-width:850px) {
+  .wave-containerr::before {    
+      height: 42.5px;
+  }  
+}
+@media(max-width:1025px)
+{
+    .wave-containerr:hover{
+        height: 18vh;
+    }
+}
+@media(max-width:769px)
+{
+    .wave-containerr:hover{
+        height: 23vh;
+        
+    }
+}
+@media(max-width:426px)
+{
+    .wave-containerr:hover{
+        height: 24vh;
+        
+    }
+}
