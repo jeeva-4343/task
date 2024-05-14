@@ -3,7 +3,7 @@ import '../Css/Section-6.css'
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Button from 'react-bootstrap/esm/Button';
-import First from '../images/Section-6-1.jpeg'
+// import First from '../images/Section-6-1.jpeg'
 
 function Testimonial(){
     return (
