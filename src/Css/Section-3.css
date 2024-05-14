@@ -92,8 +92,9 @@
         height: 42.5px;
     }  
 }
-@media (max-width:426px) {
+@media (min-width:370px) and (max-width:426px) {
     .mb-4{
         width: 70% !important;
+        
     }
 }
