@@ -1,6 +1,7 @@
 .Section-3-container{
     padding: 20px;
     background-color: rgb(239, 235, 235);
+
 }
 
 .icon-circle {
@@ -42,6 +43,7 @@
 .section3-card-row {
     justify-content: center;
     padding: 30px;
+
 }
 
 .Section3-head {
@@ -89,4 +91,9 @@
     .wave-container::before {    
         height: 42.5px;
     }  
+}
+@media (max-width:426px) {
+    .mb-4{
+        width: 70% !important;
+    }
 }

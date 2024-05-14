@@ -1,12 +1,6 @@
 /* Navbar.css */
-.brand-container {
-  /* display: flex; */
-  /* align-items: center; */
-}
+
 .Navi-container{
-  justify-content: center !important;
-  align-items: center !important;
-  text-align:  center !important;
   width: 73% !important;
   padding: 10px;
 }

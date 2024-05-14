@@ -18,13 +18,18 @@
 }
 
 .Section-4-col {
-    margin-left: 10px !important;
+    margin-left: 30px !important;
     /* border-style: solid; */
     padding: 0px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    
 }
 
 .Section-4-card {
     padding: 15px;
+
 }
 .Section-4-Sub-head {
     font-size: 20px;
@@ -97,6 +102,7 @@
 .Section-4-crd-body :hover{
   /* padding: 10px;
   margin-top: 80px !important; */
+  
 }
 .wave-containerr:hover {  
   height: 20vh;
